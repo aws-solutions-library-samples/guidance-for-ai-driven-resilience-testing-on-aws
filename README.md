@@ -96,7 +96,7 @@ This guidance works best in **us-east-1** (N. Virginia). Bedrock AgentCore avail
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/alkatyal-hub/guidance-for-enhancing-resilience-with-devops-agent-and-fault-injection-simulator.git
+   git clone https://github.com/aws-solutions-library-samples/guidance-for-enhancing-resilience-with-devops-agent-and-fault-injection-simulator.git
    cd guidance-for-enhancing-resilience-with-devops-agent-and-fault-injection-simulator/source
    ```
 
@@ -279,7 +279,7 @@ Edit `FINDING_MAPPINGS` in `source/server.py`. Use ISO 8601 duration format (e.g
 - On Windows, if `agentcore configure` falls back to Container deployment, install `zip` via `choco install zip` or `scoop install zip`
 - Bedrock AgentCore availability varies by region; us-east-1 is recommended
 
-For feedback, questions, or suggestions, please use the [issues tab](https://github.com/alkatyal-hub/guidance-for-enhancing-resilience-with-devops-agent-and-fault-injection-simulator/issues).
+For feedback, questions, or suggestions, please use the [issues tab](https://github.com/aws-solutions-library-samples/guidance-for-enhancing-resilience-with-devops-agent-and-fault-injection-simulator/issues).
 
 ## Notices
 
@@ -289,4 +289,4 @@ For feedback, questions, or suggestions, please use the [issues tab](https://git
 
 - Ismael Pimentel (pimisael)
 - Vishal Sharma (vsharmro)
-- Alok Katyal (alkatyal)
+- Alka Katyal
