@@ -2,11 +2,9 @@
 .vscode
 
 ### macOS ###
-# General
 .DS_Store
 .AppleDouble
 .LSOverride
-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -25,3 +23,37 @@ cdk.out
 **/data/**.csv
 
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+
+# Lambda
+lambda_package/
+lambda_deployment.zip
+response.json
+
+# Local config files with credentials
+*.local.sh
+*.local.md
+.fis_config.json
+
+# AgentCore
+.bedrock_agentcore.yaml
+.bedrock_agentcore/
+
+# Sensitive files
+*.pem
+*.key
+trust-policy.json
+bedrock-policy.json
+payload.json
+
+# CSE security scanner artifacts
+.security-scan/

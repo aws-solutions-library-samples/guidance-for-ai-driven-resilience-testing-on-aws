@@ -1,0 +1,4 @@
+# Pinned versions for supply chain integrity (CWE-829, CWE-494)
+# Update versions explicitly after security review
+mcp==1.27.2
+boto3==1.38.35
